@@ -349,6 +349,10 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	" Diff Highlighting
 	call <SID>X("diffAdded", s:green, "", "")
 	call <SID>X("diffRemoved", s:red, "", "")
+	call <SID>X("DiffAdd", "",  "40794b", "")
+	call <SID>X("DiffDelete", "",  "994b4c", "")
+	call <SID>X("DiffChange", "",  "4b4c99", "")
+	call <SID>X("DiffText", "",  "3b3c99", "")
 
 	" Delete Functions
 	delf <SID>X
